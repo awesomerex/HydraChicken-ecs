@@ -33,6 +33,14 @@
    "scenes": "all"
   },
   {
+   "name": "splat-ecs/lib/systems/match-center-x",
+   "scenes": "all"
+  },
+  {
+   "name": "splat-ecs/lib/systems/match-center-y",
+   "scenes": "all"
+  },
+  {
    "name": "splat-ecs/lib/systems/box-collider",
    "scenes": "all"
   },
