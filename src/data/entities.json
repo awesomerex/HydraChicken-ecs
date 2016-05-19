@@ -72,8 +72,69 @@
     "y": 0
    },
    "size": {
-    "width": 1152,
-    "height": 648
+    "width": 1136,
+    "height": 640
+   }
+  },
+  {
+   "id": 2,
+   "name": "bg",
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "image": {
+    "name": "Title_Screen.jpg"
+   }
+  },
+  {
+   "id": 3,
+   "name": "logo",
+   "position": {
+    "x": 0,
+    "y": 240
+   },
+   "image": {
+    "name": "Logo.png"
+   }
+  },
+  {
+   "id": 4,
+   "name": "Controls1",
+   "position": {
+    "x": 836,
+    "y": 80
+   },
+   "text" : {
+    "text" : "Controls:",
+    "font" : "bold 30px Courier",
+    "fillStyle": "#f00"
+   }
+  },
+  {
+   "id": 5,
+   "name": "Controls2",
+   "position": {
+    "x": 836,
+    "y": 112
+   },
+   "text" : {
+    "text" : "F - Left Head",
+    "font" : "bold 30px Courier",
+    "fillStyle": "#f00"
+   }
+  },
+  {
+   "id": 6,
+   "name": "Controls3",
+   "position": {
+    "x": 836,
+    "y": 144
+   },
+   "text" : {
+    "text" : "J - Right Head",
+    "font" : "bold 30px Courier",
+    "fillStyle": "#f00"
    }
   }
  ]
