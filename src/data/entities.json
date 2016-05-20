@@ -1,52 +1,4 @@
 {
- "main": [
-  {
-   "id": 0,
-   "name": "camera",
-   "camera": true,
-   "position": {
-    "x": 0,
-    "y": 0
-   },
-   "matchCanvasSize": true
-  },
-  {
-   "id": 1,
-   "name": "player",
-   "position": {
-    "x": 100,
-    "y": 100
-   },
-   "size": {
-    "width": 100,
-    "height": 100
-   },
-   "velocity": {
-    "x": 0,
-    "y": 0
-   },
-   "playerController2d": {
-    "up": "up",
-    "down": "down",
-    "left": "left",
-    "right": "right"
-   },
-   "movement2d": {
-    "upMax": -0.5,
-    "downMax": 0.5,
-    "leftMax": -0.5,
-    "rightMax": 0.5,
-    "upAccel": -0.02,
-    "downAccel": 0.02,
-    "leftAccel": -0.02,
-    "rightAccel": 0.02
-   },
-   "friction": {
-    "x": 0.97,
-    "y": 0.97
-   }
-  }
- ],
  "title": [
  {
    "id": 0,
@@ -143,6 +95,68 @@
     "controller": {
       "left": "./scripts/start-game",
       "right": "./scripts/start-game"
+    }
+  }
+ ],
+ "main": [
+  {
+   "id": 0,
+   "name": "camera",
+   "camera": true,
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "matchCanvasSize": true,
+   "matchCenterX": {
+    "id": 1
+   },
+  "matchCenterY": {
+    "id": 1
+   }
+  },
+  {
+   "id": 1,
+   "name": "viewport",
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "size": {
+    "width": 1136,
+    "height": 640
+   }
+  },
+  {
+   "id": 2,
+   "name": "bg",
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "image": {
+    "name": "Background_beetle_level.jpg"
+   }
+  },
+  {
+    "id": 3,
+    "name": "body",
+    "position": {
+      "x": 268,
+      "y": 290
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "chicken-body-idle"
+    },
+    "image": {
+      "destinationX": 0,
+      "destinationY": 0,
+      "destinationWidth": 600,
+      "destinationHeight": 274
     }
   }
  ]

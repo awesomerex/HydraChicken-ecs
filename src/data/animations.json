@@ -1,2 +1,33 @@
 {
+	"chicken-body-idle" : [{
+		"filmstripFrames": 3,
+		"time": 150,
+		"properties": {
+			"image": {
+				"name" : "Hydra_Chicken_body_animation_small.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 1800,
+				"sourceHeight": 274
+			}
+		}
+	}],
+	"chicken-left-idle" : [{
+		"filmstripFrames": 3,
+		"time": 150,
+		"properties": {
+			"image": {
+				"name" : "Hydra_Chicken_red_head_idle_animation.png"
+			}
+		}
+	}],
+	"chicken-right-idle" : [{
+		"filmstripFrames": 3,
+		"time": 150,
+		"properties": {
+			"image": {
+				"name" : "Hydra_Chicken_blue_head_idle_animation.png"
+			}
+		}
+	}]
 }
