@@ -25,6 +25,19 @@
 			}
 		}
 	}],
+	"chicken-left-attack" : [{
+		"filmstripFrames": 5,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Red_Head_attack_Animation.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 1115,
+				"sourceHeight": 479
+			}
+		}
+	}],
 	"chicken-right-idle" : [{
 		"filmstripFrames": 3,
 		"time": 150,
@@ -35,6 +48,19 @@
 				"sourceY": 0,
 				"sourceWidth": 510,
 				"sourceHeight": 255
+			}
+		}
+	}],
+	"chicken-right-attack" : [{
+		"filmstripFrames": 5,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Blue_Head_attack_Animation.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 1105,
+				"sourceHeight": 479
 			}
 		}
 	}]

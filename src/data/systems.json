@@ -13,6 +13,10 @@
    "scenes": "all"
   },
   {
+   "name": "./systems/simulation/frame-check",
+   "scenes": "all"
+  },
+  {
    "name": "./systems/simulation/handle-controller",
    "scenes": "all"
   },

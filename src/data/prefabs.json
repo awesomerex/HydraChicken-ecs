@@ -1,1 +1,54 @@
-{}
+{
+"left-head": {
+    "name": "left-head",
+    "position": {
+      "x": 393,
+      "y": 140,
+      "z": 1
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "chicken-left-idle"
+    },
+    "image": {
+      "name" : "Hydra_Chicken_red_head_idle_animation.png",
+      "destinationX": 0,
+      "destinationY": 0,
+      "destinationWidth": 163,
+      "destinationHeight": 254,
+      "sourceWidth": 163
+    },
+    "leftHeadIdle": true
+ },
+"left-head-attack": {
+    "name": "left-head-attack",
+    "position": {
+      "x": 343,
+      "y": 140,
+      "z": 1
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": false,
+      "speed": 1,
+      "name": "chicken-left-attack"
+    },
+    "image": {
+      "name" : "Red_Head_attack_Animation.png",
+      "destinationX": 0,
+      "destinationY": 0,
+      "destinationWidth": 223,
+      "destinationHeight": 479,
+      "sourceWidth": 223
+    },
+    "leftHeadAttack": true,
+    "onFrame": {
+    	"frame": 4,
+    	"script": "./scripts/left-idle"
+    }
+  }
+}

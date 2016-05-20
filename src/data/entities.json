@@ -160,28 +160,6 @@
     }
   },
   {
-    "id": 4,
-    "name": "left-head",
-    "position": {
-      "x": 393,
-      "y": 140,
-      "z": 1
-    },
-    "animation": {
-      "time": 0,
-      "frame": 0,
-      "loop": true,
-      "speed": 1,
-      "name": "chicken-left-idle"
-    },
-    "image": {
-      "destinationX": 0,
-      "destinationY": 0,
-      "destinationWidth": 163,
-      "destinationHeight": 254
-    }
-  },
-  {
     "id": 5,
     "name": "right-head",
     "position": {
@@ -201,6 +179,36 @@
       "destinationY": 0,
       "destinationWidth": 170,
       "destinationHeight": 255
+    }
+  },
+  {
+    "id": 7,
+    "name": "right-head-attack",
+    "position": {
+      "x": 568,
+      "y": 140,
+      "z": 1
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "chicken-right-attack"
+    },
+    "image": {
+      "destinationX": 0,
+      "destinationY": 0,
+      "destinationWidth": 221,
+      "destinationHeight": 479
+    }
+  },
+  {
+    "id": 8,
+    "name": "player",
+    "controller": {
+      "left": "./scripts/left-attack",
+      "right": "./scripts/start-game"
     }
   }
  ]
