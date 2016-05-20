@@ -2,42 +2,6 @@
   "axes": {
   },
   "buttons": {
-    "up": [
-      {
-        "device": "keyboard",
-        "button": "w"
-      },
-      {
-        "device": "keyboard",
-        "button": "up"
-      },
-      {
-        "device": "gamepad",
-        "button": "dpad up"
-      },
-      {
-        "device": "gamepad",
-        "button": "left stick up"
-      }
-    ],
-    "down": [
-      {
-        "device": "keyboard",
-        "button": "s"
-      },
-      {
-        "device": "keyboard",
-        "button": "down"
-      },
-      {
-        "device": "gamepad",
-        "button": "dpad down"
-      },
-      {
-        "device": "gamepad",
-        "button": "left stick down"
-      }
-    ],
     "left": [
       {
         "device": "keyboard",
@@ -54,7 +18,19 @@
       {
         "device": "gamepad",
         "button": "left stick left"
+      },
+      {
+        "device": "keyboard",
+        "button": "f"
+      },
+      {
+        "device": "touch",
+        "x": 0,
+        "y": 0,
+        "width": 568,
+        "height": 640
       }
+
     ],
     "right": [
       {
@@ -72,6 +48,17 @@
       {
         "device": "gamepad",
         "button": "left stick right"
+      },
+      {
+        "device": "keyboard",
+        "button": "j"
+      },
+      {
+        "device": "touch",
+        "x": 568,
+        "y": 0,
+        "width": 568,
+        "height": 640
       }
     ]
   }

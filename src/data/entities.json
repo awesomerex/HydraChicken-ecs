@@ -136,6 +136,14 @@
     "font" : "bold 30px Courier",
     "fillStyle": "#f00"
    }
+  },
+  {
+    "id": 7,
+    "name": "player",
+    "controller": {
+      "left": "./scripts/start-game",
+      "right": "./scripts/start-game"
+    }
   }
  ]
 }

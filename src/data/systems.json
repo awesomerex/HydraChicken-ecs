@@ -13,6 +13,10 @@
    "scenes": "all"
   },
   {
+   "name": "./systems/simulation/handle-controller",
+   "scenes": "all"
+  },
+  {
    "name": "splat-ecs/lib/systems/control-player",
    "scenes": "all"
   },
