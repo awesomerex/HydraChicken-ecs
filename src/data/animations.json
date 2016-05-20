@@ -17,7 +17,11 @@
 		"time": 150,
 		"properties": {
 			"image": {
-				"name" : "Hydra_Chicken_red_head_idle_animation.png"
+				"name" : "Hydra_Chicken_red_head_idle_animation.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 490,
+				"sourceHeight": 254
 			}
 		}
 	}],
@@ -26,7 +30,11 @@
 		"time": 150,
 		"properties": {
 			"image": {
-				"name" : "Hydra_Chicken_blue_head_idle_animation.png"
+				"name" : "Hydra_Chicken_blue_head_idle_animation.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 510,
+				"sourceHeight": 255
 			}
 		}
 	}]
