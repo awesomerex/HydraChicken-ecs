@@ -22,15 +22,7 @@
       {
         "device": "keyboard",
         "button": "f"
-      },
-      {
-        "device": "touch",
-        "x": 0,
-        "y": 0,
-        "width": 568,
-        "height": 640
       }
-
     ],
     "right": [
       {
@@ -52,13 +44,6 @@
       {
         "device": "keyboard",
         "button": "j"
-      },
-      {
-        "device": "touch",
-        "x": 568,
-        "y": 0,
-        "width": 568,
-        "height": 640
       }
     ]
   }
