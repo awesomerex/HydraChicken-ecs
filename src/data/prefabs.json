@@ -102,5 +102,33 @@
     	"frame": 4,
     	"script": "./scripts/right-idle"
     }
+  },
+  "beetle-blue": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "beetle-blue"
+    },
+    "image": {
+      "name" : "Blue_Beetle.png",
+      "destinationX": -50,
+      "destinationY": -50,
+      "destinationWidth": 201,
+      "destinationHeight": 117,
+      "sourceWidth": 201
+    },
+    "direction" : "",
+    "enemy" : true
   }
 }

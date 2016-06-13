@@ -45,6 +45,12 @@
         "device": "keyboard",
         "button": "j"
       }
+    ],
+    "spawn" : [
+      {
+        "device": "keyboard",
+        "button": "a"
+      }
     ]
   }
 }

@@ -63,5 +63,18 @@
 				"sourceHeight": 479
 			}
 		}
+	}],
+	"beetle-blue" : [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Blue_Beetle.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 402,
+				"sourceHeight": 117
+			}
+		} 
 	}]
 }

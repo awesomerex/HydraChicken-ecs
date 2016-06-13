@@ -164,7 +164,8 @@
     "name": "player",
     "controller": {
       "left": "./scripts/left-attack",
-      "right": "./scripts/right-attack"
+      "right": "./scripts/right-attack",
+      "spawn": "./scripts/spawn-enemy"
     }
   },
   {
@@ -192,6 +193,22 @@
       "height": 640
     },
     "virtualButton": "right"
+  },
+  {
+    "id": 11,
+    "name": "left spawner",
+    "position": {
+      "x": 0,
+      "y": 540
+    },
+    "size":{
+      "width": 20,
+      "height": 20
+    },
+    "spawner" : {
+      "direction" : "right",
+      "level" : 1
+    }
   }
  ]
 }
