@@ -128,7 +128,7 @@
       "destinationHeight": 117,
       "sourceWidth": 201
     },
-    "direction" : "",
+    "direction" : "right",
     "enemy" : true
   }
 }
