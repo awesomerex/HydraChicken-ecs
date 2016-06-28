@@ -28,7 +28,7 @@
     "position": {
       "x": 343,
       "y": 140,
-      "z": 1
+      "z": 3
     },
     "animation": {
       "time": 0,
@@ -80,7 +80,7 @@
     "position": {
       "x": 568,
       "y": 140,
-      "z": 1
+      "z": 3
     },
     "animation": {
       "time": 0,
@@ -127,6 +127,538 @@
       "destinationWidth": 201,
       "destinationHeight": 117,
       "sourceWidth": 201
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "beetle-red": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "beetle-red"
+    },
+    "image": {
+      "name" : "Red_Beetle.png",
+      "destinationX": -50,
+      "destinationY": -50,
+      "destinationWidth": 201,
+      "destinationHeight": 117,
+      "sourceWidth": 201
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "rat-blue": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "rat-blue"
+    },
+    "image": {
+      "name" : "Blue_Rat.png",
+      "destinationX": -125,
+      "destinationY": -25,
+      "destinationWidth": 208,
+      "destinationHeight": 72,
+      "sourceWidth": 208
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "rat-red": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "rat-red"
+    },
+    "image": {
+      "name" : "Red_Rat.png",
+      "destinationX": -125,
+      "destinationY": -25,
+      "destinationWidth": 208,
+      "destinationHeight": 72,
+      "sourceWidth": 208
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "pony-blue": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "pony-blue"
+    },
+    "image": {
+      "name" : "Blue_Pony.png",
+      "destinationX": -75,
+      "destinationY": -75,
+      "destinationWidth": 191,
+      "destinationHeight": 152,
+      "sourceWidth": 191
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "pony-red": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "pony-red"
+    },
+    "image": {
+      "name" : "Red_Pony.png",
+      "destinationX": -75,
+      "destinationY": -75,
+      "destinationWidth": 191,
+      "destinationHeight": 152,
+      "sourceWidth": 191
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "sheep-blue": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "sheep-blue"
+    },
+    "image": {
+      "name" : "Blue_Sheep.png",
+      "destinationX": -100,
+      "destinationY": -50,
+      "destinationWidth": 208,
+      "destinationHeight": 126,
+      "sourceWidth": 208
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "sheep-red": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "sheep-red"
+    },
+    "image": {
+      "name" : "Red_Sheep.png",
+      "destinationX": -100,
+      "destinationY": -50,
+      "destinationWidth": 208,
+      "destinationHeight": 126,
+      "sourceWidth": 208
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "elephant-blue": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "elephant-blue"
+    },
+    "image": {
+      "name" : "Blue_Elephant.png",
+      "destinationX": -75,
+      "destinationY": -75,
+      "destinationWidth": 188,
+      "destinationHeight": 155,
+      "sourceWidth": 188
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "elephant-red": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "elephant-red"
+    },
+    "image": {
+      "name" : "Red_Elephant.png",
+      "destinationX": -75,
+      "destinationY": -75,
+      "destinationWidth": 188,
+      "destinationHeight": 155,
+      "sourceWidth": 188
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "beetle-blue-left": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "beetle-blue"
+    },
+    "image": {
+      "name" : "Blue_Beetle.png",
+      "destinationX": -50,
+      "destinationY": -50,
+      "destinationWidth": 201,
+      "destinationHeight": 117,
+      "sourceWidth": 201
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "beetle-red-left": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "beetle-red"
+    },
+    "image": {
+      "name" : "Red_Beetle.png",
+      "destinationX": -50,
+      "destinationY": -50,
+      "destinationWidth": 201,
+      "destinationHeight": 117,
+      "sourceWidth": 201
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "rat-blue-left": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "rat-blue"
+    },
+    "image": {
+      "name" : "Blue_Rat.png",
+      "destinationX": -125,
+      "destinationY": -25,
+      "destinationWidth": 208,
+      "destinationHeight": 72,
+      "sourceWidth": 208
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "rat-red-left": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "rat-red"
+    },
+    "image": {
+      "name" : "Red_Rat.png",
+      "destinationX": -125,
+      "destinationY": -25,
+      "destinationWidth": 208,
+      "destinationHeight": 72,
+      "sourceWidth": 208
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "pony-blue-left": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "pony-blue"
+    },
+    "image": {
+      "name" : "Blue_Pony.png",
+      "destinationX": -75,
+      "destinationY": -75,
+      "destinationWidth": 191,
+      "destinationHeight": 152,
+      "sourceWidth": 191
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "pony-red-left": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "pony-red"
+    },
+    "image": {
+      "name" : "Red_Pony.png",
+      "destinationX": -75,
+      "destinationY": -75,
+      "destinationWidth": 191,
+      "destinationHeight": 152,
+      "sourceWidth": 191
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "sheep-blue-left": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "sheep-blue"
+    },
+    "image": {
+      "name" : "Blue_Sheep.png",
+      "destinationX": -100,
+      "destinationY": -50,
+      "destinationWidth": 208,
+      "destinationHeight": 126,
+      "sourceWidth": 208
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "sheep-red-left": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "sheep-red"
+    },
+    "image": {
+      "name" : "Red_Sheep.png",
+      "destinationX": -100,
+      "destinationY": -50,
+      "destinationWidth": 208,
+      "destinationHeight": 126,
+      "sourceWidth": 208
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "elephant-blue-left": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "elephant-blue"
+    },
+    "image": {
+      "name" : "Blue_Elephant.png",
+      "destinationX": -75,
+      "destinationY": -75,
+      "destinationWidth": 188,
+      "destinationHeight": 155,
+      "sourceWidth": 188
+    },
+    "direction" : "right",
+    "enemy" : true
+  },
+  "elephant-red-left": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "size": {
+      "width": 50,
+      "height": 30
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "elephant-red"
+    },
+    "image": {
+      "name" : "Red_Elephant.png",
+      "destinationX": -75,
+      "destinationY": -75,
+      "destinationWidth": 188,
+      "destinationHeight": 155,
+      "sourceWidth": 188
     },
     "direction" : "right",
     "enemy" : true

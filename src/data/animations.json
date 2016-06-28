@@ -76,5 +76,122 @@
 				"sourceHeight": 117
 			}
 		} 
+	}],
+	"beetle-red" : [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Red_Beetle.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 402,
+				"sourceHeight": 117
+			}
+		} 
+	}],
+	"rat-blue" : [{
+		"filmstripFrames": 3,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Blue_Rat.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 624,
+				"sourceHeight": 72
+			}
+		} 
+	}],
+	"rat-red" : [{
+		"filmstripFrames": 3,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Red_Rat.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 624,
+				"sourceHeight": 72
+			}
+		} 
+	}],
+	"sheep-blue" : [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Blue_Sheep.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 416,
+				"sourceHeight": 126
+			}
+		} 
+	}],
+	"sheep-red" : [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Red_Sheep.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 416,
+				"sourceHeight": 126
+			}
+		} 
+	}],
+	"pony-blue" : [{
+		"filmstripFrames": 6,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Blue_Pony.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 1146,
+				"sourceHeight": 152
+			}
+		} 
+	}],
+	"pony-red" : [{
+		"filmstripFrames": 6,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Red_Pony.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 1146,
+				"sourceHeight": 152
+			}
+		} 
+	}],
+	"elephant-blue" : [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Blue_Elephant.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 375,
+				"sourceHeight": 155
+			}
+		} 
+	}],
+	"elephant-red" : [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Red_Elephant.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 375,
+				"sourceHeight": 155
+			}
+		} 
 	}]
 }

@@ -209,6 +209,22 @@
       "direction" : "right",
       "level" : 1
     }
+  },
+  {
+    "id": 12,
+    "name": "right spawner",
+    "position": {
+      "x": 1126,
+      "y": 540
+    },
+    "size":{
+      "width": 20,
+      "height": 20
+    },
+    "spawner" : {
+      "direction" : "left",
+      "level" : 1
+    }
   }
  ]
 }
