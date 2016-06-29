@@ -5,7 +5,8 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	var spawners = game.entities.find("spawner");
 	//2 spawners pick one at random
 	//var random = Math.floor(Math.random() * spawners.length);
-	var spawner = spawners[1];
+	console.log("spawners:",spawners[0]);
+	var spawner = spawners[Math.floor(Math.random() * spawners.length)];
 
 	//var currentLevel = game.entities.get(spawner, "level");
 	var direction = game.entities.get(spawner, "spawner").direction;
@@ -14,13 +15,14 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 
 	console.log(spawner, spawnerPosition);
 
-	//var level = ["beetle", "rat", "sheep", "pony", "elephant"];
-	//var colors = ["red", "blue"];
+	var level = ["beetle", "rat", "sheep", "pony", "elephant"];
+	var colors = ["red", "blue"];
 
 	//determine which prefab we're generating
-
-	var critter = game.instantiatePrefab("sheep-red-left");
-
+	var color = colors[Math.floor(Math.random() * colors.length)];
+	console.log("got here", color, direction);
+	var critter = game.instantiatePrefab("elephant-" + color + "-" + direction);
+	console.log("got sheep");
 	game.entities.set(critter, "direction",direction);
 	console.log(direction);
 	// console.log(critterDirection);

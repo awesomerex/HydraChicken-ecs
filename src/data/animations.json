@@ -64,7 +64,7 @@
 			}
 		}
 	}],
-	"beetle-blue" : [{
+	"beetle-blue-right" : [{
 		"filmstripFrames": 2,
 		"time": 100,
 		"properties": {
@@ -77,7 +77,7 @@
 			}
 		} 
 	}],
-	"beetle-red" : [{
+	"beetle-red-right" : [{
 		"filmstripFrames": 2,
 		"time": 100,
 		"properties": {
@@ -90,7 +90,35 @@
 			}
 		} 
 	}],
-	"rat-blue" : [{
+	"beetle-blue-left" : [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Blue_Beetle.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 402,
+				"sourceHeight": 117,
+				"flip": "horizontal"
+			}
+		} 
+	}],
+	"beetle-red-left" : [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Red_Beetle.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 402,
+				"sourceHeight": 117,
+				"flip": "horizontal"
+			}
+		} 
+	}],
+	"rat-blue-right" : [{
 		"filmstripFrames": 3,
 		"time": 100,
 		"properties": {
@@ -103,7 +131,7 @@
 			}
 		} 
 	}],
-	"rat-red" : [{
+	"rat-red-right" : [{
 		"filmstripFrames": 3,
 		"time": 100,
 		"properties": {
@@ -116,7 +144,35 @@
 			}
 		} 
 	}],
-	"sheep-blue" : [{
+	"rat-blue-left" : [{
+		"filmstripFrames": 3,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Blue_Rat.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 624,
+				"sourceHeight": 72,
+				"flip": "horizontal"
+			}
+		} 
+	}],
+	"rat-red-left" : [{
+		"filmstripFrames": 3,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Red_Rat.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 624,
+				"sourceHeight": 72,
+				"flip": "horizontal"
+			}
+		} 
+	}],
+	"sheep-blue-right" : [{
 		"filmstripFrames": 2,
 		"time": 100,
 		"properties": {
@@ -129,7 +185,7 @@
 			}
 		} 
 	}],
-	"sheep-red" : [{
+	"sheep-red-right" : [{
 		"filmstripFrames": 2,
 		"time": 100,
 		"properties": {
@@ -142,7 +198,35 @@
 			}
 		} 
 	}],
-	"pony-blue" : [{
+	"sheep-blue-left" : [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Blue_Sheep.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 416,
+				"sourceHeight": 126,
+				"flip": "horizontal"
+			}
+		} 
+	}],
+	"sheep-red-left" : [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Red_Sheep.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 416,
+				"sourceHeight": 126,
+				"flip": "horizontal"
+			}
+		} 
+	}],
+	"pony-blue-right" : [{
 		"filmstripFrames": 6,
 		"time": 100,
 		"properties": {
@@ -155,7 +239,7 @@
 			}
 		} 
 	}],
-	"pony-red" : [{
+	"pony-red-right" : [{
 		"filmstripFrames": 6,
 		"time": 100,
 		"properties": {
@@ -168,7 +252,35 @@
 			}
 		} 
 	}],
-	"elephant-blue" : [{
+	"pony-blue-left" : [{
+		"filmstripFrames": 6,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Blue_Pony.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 1146,
+				"sourceHeight": 152,
+				"flip": "horizontal"
+			}
+		} 
+	}],
+	"pony-red-left" : [{
+		"filmstripFrames": 6,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Red_Pony.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 1146,
+				"sourceHeight": 152,
+				"flip": "horizontal"
+			}
+		} 
+	}],
+	"elephant-blue-right" : [{
 		"filmstripFrames": 2,
 		"time": 100,
 		"properties": {
@@ -181,7 +293,7 @@
 			}
 		} 
 	}],
-	"elephant-red" : [{
+	"elephant-red-right" : [{
 		"filmstripFrames": 2,
 		"time": 100,
 		"properties": {
@@ -191,6 +303,34 @@
 				"sourceY": 0,
 				"sourceWidth": 375,
 				"sourceHeight": 155
+			}
+		} 
+	}],
+	"elephant-blue-left" : [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Blue_Elephant.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 375,
+				"sourceHeight": 155,
+				"flip": "horizontal"
+			}
+		} 
+	}],
+	"elephant-red-left" : [{
+		"filmstripFrames": 2,
+		"time": 100,
+		"properties": {
+			"image": {
+				"name" : "Red_Elephant.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 375,
+				"sourceHeight": 155,
+				"flip": "horizontal"
 			}
 		} 
 	}]

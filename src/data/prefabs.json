@@ -103,7 +103,7 @@
     	"script": "./scripts/right-idle"
     }
   },
-  "beetle-blue": {
+  "beetle-blue-right": {
     "position": {
       "x": 0,
       "y": 0,
@@ -118,7 +118,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "beetle-blue"
+      "name": "beetle-blue-right"
     },
     "image": {
       "name" : "Blue_Beetle.png",
@@ -131,7 +131,7 @@
     "direction" : "right",
     "enemy" : true
   },
-  "beetle-red": {
+  "beetle-red-right": {
     "position": {
       "x": 0,
       "y": 0,
@@ -146,7 +146,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "beetle-red"
+      "name": "beetle-red-right"
     },
     "image": {
       "name" : "Red_Beetle.png",
@@ -159,7 +159,7 @@
     "direction" : "right",
     "enemy" : true
   },
-  "rat-blue": {
+  "rat-blue-right": {
     "position": {
       "x": 0,
       "y": 0,
@@ -174,7 +174,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "rat-blue"
+      "name": "rat-blue-right"
     },
     "image": {
       "name" : "Blue_Rat.png",
@@ -187,7 +187,7 @@
     "direction" : "right",
     "enemy" : true
   },
-  "rat-red": {
+  "rat-red-right": {
     "position": {
       "x": 0,
       "y": 0,
@@ -202,7 +202,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "rat-red"
+      "name": "rat-red-right"
     },
     "image": {
       "name" : "Red_Rat.png",
@@ -215,7 +215,7 @@
     "direction" : "right",
     "enemy" : true
   },
-  "pony-blue": {
+  "pony-blue-right": {
     "position": {
       "x": 0,
       "y": 0,
@@ -230,7 +230,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "pony-blue"
+      "name": "pony-blue-right"
     },
     "image": {
       "name" : "Blue_Pony.png",
@@ -243,7 +243,7 @@
     "direction" : "right",
     "enemy" : true
   },
-  "pony-red": {
+  "pony-red-right": {
     "position": {
       "x": 0,
       "y": 0,
@@ -258,7 +258,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "pony-red"
+      "name": "pony-red-right"
     },
     "image": {
       "name" : "Red_Pony.png",
@@ -271,7 +271,7 @@
     "direction" : "right",
     "enemy" : true
   },
-  "sheep-blue": {
+  "sheep-blue-right": {
     "position": {
       "x": 0,
       "y": 0,
@@ -286,7 +286,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "sheep-blue"
+      "name": "sheep-blue-right"
     },
     "image": {
       "name" : "Blue_Sheep.png",
@@ -299,7 +299,7 @@
     "direction" : "right",
     "enemy" : true
   },
-  "sheep-red": {
+  "sheep-red-right": {
     "position": {
       "x": 0,
       "y": 0,
@@ -314,7 +314,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "sheep-red"
+      "name": "sheep-red-right"
     },
     "image": {
       "name" : "Red_Sheep.png",
@@ -327,7 +327,7 @@
     "direction" : "right",
     "enemy" : true
   },
-  "elephant-blue": {
+  "elephant-blue-right": {
     "position": {
       "x": 0,
       "y": 0,
@@ -342,7 +342,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "elephant-blue"
+      "name": "elephant-blue-right"
     },
     "image": {
       "name" : "Blue_Elephant.png",
@@ -355,7 +355,7 @@
     "direction" : "right",
     "enemy" : true
   },
-  "elephant-red": {
+  "elephant-red-right": {
     "position": {
       "x": 0,
       "y": 0,
@@ -370,7 +370,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "elephant-red"
+      "name": "elephant-red-right"
     },
     "image": {
       "name" : "Red_Elephant.png",
@@ -398,15 +398,16 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "beetle-blue"
+      "name": "beetle-blue-left"
     },
     "image": {
       "name" : "Blue_Beetle.png",
-      "destinationX": -50,
+      "destinationX": -100,
       "destinationY": -50,
       "destinationWidth": 201,
       "destinationHeight": 117,
-      "sourceWidth": 201
+      "sourceWidth": 201,
+      "flip": "horizontal"
     },
     "direction" : "right",
     "enemy" : true
@@ -426,15 +427,16 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "beetle-red"
+      "name": "beetle-red-left"
     },
     "image": {
       "name" : "Red_Beetle.png",
-      "destinationX": -50,
+      "destinationX": -100,
       "destinationY": -50,
       "destinationWidth": 201,
       "destinationHeight": 117,
-      "sourceWidth": 201
+      "sourceWidth": 201,
+      "flip": "horizontal"
     },
     "direction" : "right",
     "enemy" : true
@@ -454,15 +456,16 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "rat-blue"
+      "name": "rat-blue-left"
     },
     "image": {
       "name" : "Blue_Rat.png",
-      "destinationX": -125,
+      "destinationX": -50,
       "destinationY": -25,
       "destinationWidth": 208,
       "destinationHeight": 72,
-      "sourceWidth": 208
+      "sourceWidth": 208,
+      "flip": "horizontal"
     },
     "direction" : "right",
     "enemy" : true
@@ -482,15 +485,16 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "rat-red"
+      "name": "rat-red-left"
     },
     "image": {
       "name" : "Red_Rat.png",
-      "destinationX": -125,
+      "destinationX": -50,
       "destinationY": -25,
       "destinationWidth": 208,
       "destinationHeight": 72,
-      "sourceWidth": 208
+      "sourceWidth": 208,
+      "flip": "horizontal"
     },
     "direction" : "right",
     "enemy" : true
@@ -510,7 +514,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "pony-blue"
+      "name": "pony-blue-left"
     },
     "image": {
       "name" : "Blue_Pony.png",
@@ -518,7 +522,8 @@
       "destinationY": -75,
       "destinationWidth": 191,
       "destinationHeight": 152,
-      "sourceWidth": 191
+      "sourceWidth": 191,
+      "flip" : "horizontal"
     },
     "direction" : "right",
     "enemy" : true
@@ -538,7 +543,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "pony-red"
+      "name": "pony-red-left"
     },
     "image": {
       "name" : "Red_Pony.png",
@@ -546,7 +551,8 @@
       "destinationY": -75,
       "destinationWidth": 191,
       "destinationHeight": 152,
-      "sourceWidth": 191
+      "sourceWidth": 191,
+      "flip": "horizontal"
     },
     "direction" : "right",
     "enemy" : true
@@ -566,7 +572,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "sheep-blue"
+      "name": "sheep-blue-left"
     },
     "image": {
       "name" : "Blue_Sheep.png",
@@ -574,8 +580,13 @@
       "destinationY": -50,
       "destinationWidth": 208,
       "destinationHeight": 126,
-      "sourceWidth": 208
+      "sourceWidth": 208,
+      "flip": "horizontal"
     },
+    "rotation" : {
+      "x" : 90,
+      "y" : 0
+      },
     "direction" : "right",
     "enemy" : true
   },
@@ -594,7 +605,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "sheep-red"
+      "name": "sheep-red-left"
     },
     "image": {
       "name" : "Red_Sheep.png",
@@ -602,7 +613,8 @@
       "destinationY": -50,
       "destinationWidth": 208,
       "destinationHeight": 126,
-      "sourceWidth": 208
+      "sourceWidth": 208,
+      "flip":"horizontal"
     },
     "direction" : "right",
     "enemy" : true
@@ -622,7 +634,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "elephant-blue"
+      "name": "elephant-blue-left"
     },
     "image": {
       "name" : "Blue_Elephant.png",
@@ -630,7 +642,8 @@
       "destinationY": -75,
       "destinationWidth": 188,
       "destinationHeight": 155,
-      "sourceWidth": 188
+      "sourceWidth": 188,
+      "flip": "horizontal"
     },
     "direction" : "right",
     "enemy" : true
@@ -650,7 +663,7 @@
       "frame": 0,
       "loop": true,
       "speed": 1,
-      "name": "elephant-red"
+      "name": "elephant-red-left"
     },
     "image": {
       "name" : "Red_Elephant.png",
@@ -658,7 +671,8 @@
       "destinationY": -75,
       "destinationWidth": 188,
       "destinationHeight": 155,
-      "sourceWidth": 188
+      "sourceWidth": 188,
+      "flip": "horizontal"
     },
     "direction" : "right",
     "enemy" : true
