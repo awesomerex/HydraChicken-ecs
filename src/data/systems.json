@@ -1,6 +1,10 @@
 {
  "simulation": [
   {
+    "name": "./systems/simulation/destroy",
+    "scenes" : "all"
+  },
+  {
    "name": "splat-ecs/lib/systems/match-canvas-size",
    "scenes": "all"
   },
@@ -18,6 +22,10 @@
   },
   {
     "name": "./systems/simulation/move-enemies",
+    "scenes": "main"
+  },
+  {
+    "name": "./systems/simulation/score",
     "scenes": "main"
   },
   {

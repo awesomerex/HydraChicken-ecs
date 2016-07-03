@@ -26,9 +26,11 @@
 "left-head-attack": {
     "name": "left-head-attack",
     "position": {
-      "x": 343,
-      "y": 140,
-      "z": 3
+      "x": 368,
+      "y": 540,
+      "z": 3,
+      "width": 150,
+      "height": 20
     },
     "animation": {
       "time": 0,
@@ -39,17 +41,22 @@
     },
     "image": {
       "name" : "Red_Head_attack_Animation.png",
-      "destinationX": 0,
-      "destinationY": 0,
+      "destinationX": -25,
+      "destinationY": -400,
       "destinationWidth": 223,
       "destinationHeight": 479,
       "sourceWidth": 223
+    },
+    "size": {
+      "width": 150,
+      "height": 20
     },
     "leftHeadAttack": true,
     "onFrame": {
     	"frame": 4,
     	"script": "./scripts/left-idle"
-    }
+    },
+    "notEating": "true"
   },
   "right-head": {
     "name": "right-head",
@@ -78,9 +85,15 @@
   "right-head-attack": {
     "name": "right-head-attack",
     "position": {
-      "x": 568,
-      "y": 140,
-      "z": 3
+      "x": 618,
+      "y": 540,
+      "z": 3,
+      "width": 150,
+      "height": 20
+    },
+    "size": {
+      "width" : 150,
+      "height": 20
     },
     "animation": {
       "time": 0,
@@ -91,8 +104,8 @@
     },
     "image": {
       "name" : "Blue_Head_attack_Animation.png",
-      "destinationX": 0,
-      "destinationY": 0,
+      "destinationX": -50,
+      "destinationY": -400,
       "destinationWidth": 221,
       "destinationHeight": 479,
       "sourceWidth": 221
@@ -101,7 +114,8 @@
     "onFrame": {
     	"frame": 4,
     	"script": "./scripts/right-idle"
-    }
+    },
+    "notEating": true
   },
   "beetle-blue-right": {
     "position": {
