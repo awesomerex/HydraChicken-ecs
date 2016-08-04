@@ -47,10 +47,6 @@
       "destinationHeight": 479,
       "sourceWidth": 223
     },
-    "size": {
-      "width": 150,
-      "height": 20
-    },
     "leftHeadAttack": true,
     "onFrame": {
     	"frame": 4,
@@ -91,10 +87,6 @@
       "width": 150,
       "height": 20
     },
-    "size": {
-      "width" : 150,
-      "height": 20
-    },
     "animation": {
       "time": 0,
       "frame": 0,
@@ -123,10 +115,6 @@
       "y": 0,
       "z": 2
     },
-    "size": {
-      "width": 50,
-      "height": 30
-    },
     "animation": {
       "time": 0,
       "frame": 0,
@@ -143,17 +131,15 @@
       "sourceWidth": 201
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "sound" : "Bug_scuttle.mp3",
+    "enemyType" : "beetle"
   },
   "beetle-red-right": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -171,17 +157,15 @@
       "sourceWidth": 201
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "sound" : "Bug_scuttle.mp3",
+    "enemyType" : "beetle"
   },
   "rat-blue-right": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -199,17 +183,14 @@
       "sourceWidth": 208
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "enemyType" : "rat"
   },
   "rat-red-right": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -227,17 +208,14 @@
       "sourceWidth": 208
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "enemyType" : "rat"
   },
   "pony-blue-right": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -255,17 +233,15 @@
       "sourceWidth": 191
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "sound" : "Pony_Gallop.mp3",
+    "enemyType" : "pony"
   },
   "pony-red-right": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -283,17 +259,15 @@
       "sourceWidth": 191
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "sound" : "Pony_Gallop.mp3",
+    "enemyType" : "pony"
   },
   "sheep-blue-right": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -311,17 +285,14 @@
       "sourceWidth": 208
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "enemyType" : "sheep"
   },
   "sheep-red-right": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -339,17 +310,14 @@
       "sourceWidth": 208
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "enemyType" : "sheep"
   },
   "elephant-blue-right": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -367,17 +335,15 @@
       "sourceWidth": 188
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "sound" : "Elephant_stampede.mp3",
+    "enemyType" : "elephant"
   },
   "elephant-red-right": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -395,17 +361,15 @@
       "sourceWidth": 188
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "sound" : "Elephant_stampede.mp3",
+    "enemyType" : "elephant"
   },
   "beetle-blue-left": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -424,17 +388,15 @@
       "flip": "horizontal"
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "sound" : "Bug_scuttle.mp3",
+    "enemyType" : "beetle"
   },
   "beetle-red-left": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -453,17 +415,15 @@
       "flip": "horizontal"
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "sound" : "Bug_scuttle.mp3",
+    "enemyType" : "beetle"
   },
   "rat-blue-left": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -482,17 +442,14 @@
       "flip": "horizontal"
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "enemyType" : "rat"
   },
   "rat-red-left": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -511,17 +468,14 @@
       "flip": "horizontal"
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "enemyType" : "rat"
   },
   "pony-blue-left": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -540,17 +494,15 @@
       "flip" : "horizontal"
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "sound" : "Pony_Gallop.mp3",
+    "enemyType" : "pony"
   },
   "pony-red-left": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -569,17 +521,15 @@
       "flip": "horizontal"
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "sound" : "Pony_Gallop.mp3",
+    "enemyType" : "pony"
   },
   "sheep-blue-left": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -602,17 +552,14 @@
       "y" : 0
       },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "enemyType" : "sheep"
   },
   "sheep-red-left": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -631,17 +578,14 @@
       "flip":"horizontal"
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "enemyType" : "sheep"
   },
   "elephant-blue-left": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -660,17 +604,15 @@
       "flip": "horizontal"
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "sound" : "Elephant_stampede.mp3",
+    "enemyType" : "elephant"
   },
   "elephant-red-left": {
     "position": {
       "x": 0,
       "y": 0,
       "z": 2
-    },
-    "size": {
-      "width": 50,
-      "height": 30
     },
     "animation": {
       "time": 0,
@@ -689,6 +631,8 @@
       "flip": "horizontal"
     },
     "direction" : "right",
-    "enemy" : true
+    "enemy" : true,
+    "sound" : "Elephant_stampede.mp3",
+    "enemyType" : "elephant"
   }
 }

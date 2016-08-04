@@ -6,5 +6,8 @@
  },
  "title": {
   "onEnter": "./scripts/title-enter"
+ },
+ "ending": {
+  "onEnter": "./scripts/ending-enter"
  }
 }

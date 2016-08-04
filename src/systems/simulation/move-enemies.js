@@ -56,7 +56,8 @@ module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 		//check if enemy is off of the screen
 		if (position.x < -20 || position.x > 1156) {
 			game.entities.set(entity, "destroy", true);
-			return;
+			game.sounds.stop(game.entities.get(entity, "sound") + entity);
+			return; //
 		}
 
 

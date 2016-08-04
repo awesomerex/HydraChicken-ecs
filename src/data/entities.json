@@ -96,6 +96,32 @@
       "left": "./scripts/start-game",
       "right": "./scripts/start-game"
     }
+  },
+  {
+    "id": 9,
+    "name": "left button",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size":{
+      "width": 568,
+      "height": 640
+    },
+    "virtualButton": "left"
+  },
+  {
+    "id": 10,
+    "name": "right button",
+    "position": {
+      "x": 568,
+      "y": 0
+    },
+    "size":{
+      "width": 568,
+      "height": 640
+    },
+    "virtualButton": "right"
   }
  ],
  "main": [
@@ -201,10 +227,6 @@
       "x": 0,
       "y": 540
     },
-    "size":{
-      "width": 20,
-      "height": 20
-    },
     "spawner" : {
       "direction" : "right",
       "level" : 1
@@ -217,10 +239,6 @@
       "x": 1126,
       "y": 540
     },
-    "size":{
-      "width": 20,
-      "height": 20
-    },
     "spawner" : {
       "direction" : "left",
       "level" : 1
@@ -230,7 +248,17 @@
     "id": 13,
     "name" : "level manager",
     "levelManager" : true,
-    "currentStage" : "beetle"
+    "currentStage" : "beetle",
+    "matchedCount" : 0,
+    "unmatchedCount" : 0,
+    "score" : 0,
+    "totalCount": 0,
+    "ending" : "",
+    "beetle": 0,
+    "rat": 0,
+    "sheep": 0,
+    "pony": 0,
+    "elephant": 0
   },
   {
     "id": 14,
@@ -242,6 +270,140 @@
       "max" : 1050,
       "script" : "./scripts/spawn-enemy"
       }
+    }
+  },
+  {
+    "id": 15,
+    "name" : "score",
+    "position" : {
+      "x": 50,
+      "y": 50
+    },
+    "text" : {
+      "fillStyle": "white",
+      "font": "24px arial",
+      "text": "Score: 0"
+    },
+    "score": 0
+  },
+  {
+    "id": 16,
+    "name" : "timeLimit",
+    "position": {
+      "x" : 1000,
+      "y" : 50
+    },
+    "timers" : {
+      "timeLimit" : {
+        "running" : true,
+        "time" : 1000,
+        "max" : 1000,
+        "script" : "./scripts/decrementTimer"
+      }
+    },
+    "text" : {
+      "fillStyle": "white",
+      "font": "24px arial",
+      "text": "Time: 3:00"
+    },
+    "timeLimit" : 120
+  }
+ ],
+ "ending" : [
+  {
+   "id": 0,
+   "name": "camera",
+   "camera": true,
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "matchCanvasSize": true,
+   "matchCenterX": {
+    "id": 1
+   },
+  "matchCenterY": {
+    "id": 1
+   }
+  },
+  {
+   "id": 1,
+   "name": "viewport",
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "size": {
+    "width": 1136,
+    "height": 640
+   }
+  },
+  {
+   "id": 2,
+   "name": "bg",
+   "position": {
+    "x": 0,
+    "y": 0
+   }
+  },
+  {
+    "id": 3,
+    "name" : "score",
+    "position" : {
+      "x": 10,
+      "y": 24
+    },
+    "text" : {
+      "fillStyle": "white",
+      "font": "24px arial",
+      "text": "Ending Score:"
+    }
+  },
+  {
+    "id": 4,
+    "name" : "matchedCount",
+    "position" : {
+      "x": 10,
+      "y": 48
+    },
+    "text" : {
+      "fillStyle": "white",
+      "font": "24px arial",
+      "text": "Matched Count:"
+    }
+  },
+  {
+    "id": 5,
+    "name" : "mismatchedCount",
+    "position" : {
+      "x": 10,
+      "y": 72
+    },
+    "text" : {
+      "fillStyle": "white",
+      "font": "24px arial",
+      "text": "Mis-matched Count:"
+    }
+  },
+  {
+    "id": 6,
+    "name" : "endingTitle",
+    "position" : {
+      "x": 10,
+      "y": 96
+    },
+    "text" : {
+      "fillStyle": "white",
+      "font": "24px arial",
+      "text": "Ending"
+    }
+  },
+  {
+    "id": 8,
+    "name": "player",
+    "controller": {
+      "left": "./scripts/go-to-title",
+      "right": "./scripts/go-to-title"
     }
   }
  ]

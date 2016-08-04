@@ -26,6 +26,12 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	critterPos.x = spawnerPosition.x;
 	critterPos.y = spawnerPosition.y;
 
+	var sound = game.entities.get(critter, "sound");
+	if (sound != undefined) {
+		game.sounds.play(sound, false, critter);
+	}
+
+
 	var timers = game.entities.get(entity,"timers");
 	timers.spawnEnemy.running = true;
 
