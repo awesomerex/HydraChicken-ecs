@@ -18,6 +18,8 @@ function setUpScene(game, args) {
 	ending = game.entities.get(6, "text");
 	ending.text = "Ending: " + args.ending;
 	game.entities.set(6, "text", ending);
+
+	args.manager.reset();
 }
 
 module.exports = function(game) { // eslint-disable-line no-unused-vars

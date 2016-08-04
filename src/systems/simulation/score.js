@@ -14,6 +14,22 @@
 		ending: "",
 		score: 0
 	};
+
+	manager.reset = function(){
+		this.total = 0,
+		this.redCount = 0,
+		this.blueCount = 0,
+		this.matchedCount = 0,
+		this.unmatchedCount = 0,
+		this.beetle = 0,
+		this.rat = 0,
+		this.sheep = 0,
+		this.pony = 0,
+		this.elephant = 0,
+		this.ending = "",
+		this.score = 0
+
+	};
 	
 	function getMatchedCount(game){
 		return game.entities.get(13, "matchedCount");
@@ -59,7 +75,8 @@
 		game.switchScene("ending", { "ending": this.ending,
 						 			 "matchedCount": getMatchedCount(game),
 									 "unmatchedCount": getUnmatchedCount(game),
-									 "score": game.entities.get(15, "score") 
+									 "score": game.entities.get(15, "score"),
+									 "manager" : manager 
 									});
 	};
 
