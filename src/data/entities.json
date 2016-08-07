@@ -190,8 +190,7 @@
     "name": "player",
     "controller": {
       "left": "./scripts/left-attack",
-      "right": "./scripts/right-attack",
-      "spawn": "./scripts/spawn-enemy"
+      "right": "./scripts/right-attack"
     }
   },
   {
@@ -404,7 +403,34 @@
     "controller": {
       "left": "./scripts/go-to-title",
       "right": "./scripts/go-to-title"
-    }
+    },
+    "disabled": true
+  },
+  {
+    "id": 9,
+    "name": "left button",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size":{
+      "width": 568,
+      "height": 640
+    },
+    "virtualButton": "left"
+  },
+  {
+    "id": 10,
+    "name": "right button",
+    "position": {
+      "x": 568,
+      "y": 0
+    },
+    "size":{
+      "width": 568,
+      "height": 640
+    },
+    "virtualButton": "right"
   }
  ]
 }

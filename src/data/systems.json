@@ -96,7 +96,7 @@
   },
   {
    "name": "splat-ecs/lib/systems/draw-frame-rate",
-   "scenes": "all"
+   "scenes": "none"
   },
   {
    "name": "splat-ecs/lib/systems/revert-shake",

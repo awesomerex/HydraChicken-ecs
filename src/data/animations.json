@@ -12,6 +12,19 @@
 			}
 		}
 	}],
+	"chicken-body-idle-lg" : [{
+		"filmstripFrames": 3,
+		"time": 150,
+		"properties": {
+			"image": {
+				"name" : "Hydra_Chicken_body_animation_big.png",
+				"sourceX": 0,
+				"sourceY": 0,
+				"sourceWidth": 2100,
+				"sourceHeight": 304
+			}
+		}
+	}],
 	"chicken-left-idle" : [{
 		"filmstripFrames": 3,
 		"time": 150,

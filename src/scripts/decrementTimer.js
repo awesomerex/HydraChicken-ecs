@@ -17,6 +17,11 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 
 	timeLimit = game.entities.find("timeLimit");
 	currentTime = game.entities.get(timeLimit, "timeLimit");
+
+	if (currentTime - 1 === 0) {
+		game.manager.calcEnding(game);
+	}
+
 	game.entities.set(timeLimit, "timeLimit", currentTime -= 1);
 	text = game.entities.get(timeLimit, "text");
 	text.text = "Time: " + secondsToTimeRemaining(currentTime);
