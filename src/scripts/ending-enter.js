@@ -24,7 +24,5 @@ function setUpScene(game, args) {
 
 module.exports = function(game) { // eslint-disable-line no-unused-vars
 	game.scaleCanvasToFitRectangle(1136, 640);
-	console.log("manager", game.arguments);
 	setUpScene(game, game.arguments);
-
 };

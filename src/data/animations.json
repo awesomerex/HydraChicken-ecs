@@ -33,7 +33,7 @@
 				"name" : "Hydra_Chicken_red_head_idle_animation.png",
 				"sourceX": 0,
 				"sourceY": 0,
-				"sourceWidth": 490,
+				"sourceWidth": 492,
 				"sourceHeight": 254
 			}
 		}
@@ -301,7 +301,7 @@
 				"name" : "Blue_Elephant.png",
 				"sourceX": 0,
 				"sourceY": 0,
-				"sourceWidth": 375,
+				"sourceWidth": 376,
 				"sourceHeight": 155
 			}
 		} 
@@ -314,7 +314,7 @@
 				"name" : "Red_Elephant.png",
 				"sourceX": 0,
 				"sourceY": 0,
-				"sourceWidth": 375,
+				"sourceWidth": 376,
 				"sourceHeight": 155
 			}
 		} 
@@ -327,7 +327,7 @@
 				"name" : "Blue_Elephant.png",
 				"sourceX": 0,
 				"sourceY": 0,
-				"sourceWidth": 375,
+				"sourceWidth": 376,
 				"sourceHeight": 155,
 				"flip": "horizontal"
 			}
@@ -341,7 +341,7 @@
 				"name" : "Red_Elephant.png",
 				"sourceX": 0,
 				"sourceY": 0,
-				"sourceWidth": 375,
+				"sourceWidth": 376,
 				"sourceHeight": 155,
 				"flip": "horizontal"
 			}

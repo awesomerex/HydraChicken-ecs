@@ -14,4 +14,5 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	game.instantiatePrefab("left-head-attack");
 	game.sounds.play(attackSounds[Math.floor(Math.random() * attackSounds.length)]);
 	game.sounds.play("Beak_Peck_Impact.mp3");
+	window.navigator.vibrate(1);
 };

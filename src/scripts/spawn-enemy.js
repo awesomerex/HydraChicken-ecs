@@ -8,6 +8,10 @@ module.exports = function(entity, game) { // eslint-disable-line no-unused-vars
 	var direction = game.entities.get(spawner, "spawner").direction;
 	var spawnerPosition = game.entities.get(spawner, "position");
 
+	if (spawnerPosition == undefined) {
+		return;
+	}
+
 	// var level = ["beetle", "rat", "sheep", "pony", "elephant"];
 	var levelManager = game.entities.find("levelManager");
 	var level = game.entities.get(levelManager, "currentStage");
